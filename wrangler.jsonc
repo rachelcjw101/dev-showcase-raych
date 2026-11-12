@@ -1,6 +1,6 @@
 {
-  // Static site served by the "raychdev" Cloudflare Worker.
-  "name": "raychdev",
+  // Static site served by the "dev-showcase-raych" Cloudflare Worker.
+  "name": "dev-showcase-raych",
   "compatibility_date": "2026-11-01",
   "assets": {
     "directory": "./public"

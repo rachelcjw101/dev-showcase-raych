@@ -51,10 +51,15 @@ a{color:#0B5E51}a:hover{color:#08463C}
 
 <div style="display: flex; flex-direction: column; gap: 24px">
 
+<div style="display: flex; align-items: center; gap: 16px; margin-top: 24px">
+<h3 style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: #5A5D66; white-space: nowrap">Browser extensions</h3>
+<div style="flex: 1; height: 1px; background: #D6D4CC"></div>
+</div>
+
 <article style="display: flex; flex-wrap: wrap; gap: 40px; border: 1px solid #D6D4CC; border-radius: 10px; padding: 40px">
 <div style="flex: 1 1 320px; min-width: 0">
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #0B5E51">No. 01 · Chrome extension · Open source</p>
-<h3 style="margin: 12px 0 0; font-size: 32px; font-weight: 600; letter-spacing: -0.01em">eFS Bulk Downloader</h3>
+<h4 style="margin: 12px 0 0; font-size: 32px; font-weight: 600; letter-spacing: -0.01em">eFS Bulk Downloader</h4>
 <p style="margin: 16px 0 0; font-size: 17px; line-height: 1.6; color: #3D4049">Downloads every document in a case file from the Malaysian courts' e-Filing System in one go, instead of opening and saving each one by hand.</p>
 <div style="margin-top: 28px; display: flex; flex-wrap: wrap; gap: 12px">
 <a href="https://github.com/rachelcjw101/efs-downloader" style="font-size: 15px; font-weight: 500; color: #FFFFFF; background: #16181D; text-decoration: none; padding: 12px 18px; border-radius: 6px">View on GitHub</a>
@@ -74,7 +79,7 @@ a{color:#0B5E51}a:hover{color:#08463C}
 <article style="display: flex; flex-wrap: wrap; gap: 40px; border: 1px solid #D6D4CC; border-radius: 10px; padding: 40px">
 <div style="flex: 1 1 320px; min-width: 0">
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #0B5E51">No. 02 · Chrome extension · Open source</p>
-<h3 style="margin: 12px 0 0; font-size: 32px; font-weight: 600; letter-spacing: -0.01em">eFS Hearing Watcher</h3>
+<h4 style="margin: 12px 0 0; font-size: 32px; font-weight: 600; letter-spacing: -0.01em">eFS Hearing Watcher</h4>
 <p style="margin: 16px 0 0; font-size: 17px; line-height: 1.6; color: #3D4049">Reads hearing notices from eFS and puts the dates straight into Outlook, Google or Apple Calendar — so a case management date never lives only in a portal.</p>
 <div style="margin-top: 28px; display: flex; flex-wrap: wrap; gap: 12px">
 <a href="https://github.com/rachelcjw101/efs-hearing-watcher" style="font-size: 15px; font-weight: 500; color: #FFFFFF; background: #16181D; text-decoration: none; padding: 12px 18px; border-radius: 6px">View on GitHub</a>
@@ -92,38 +97,24 @@ a{color:#0B5E51}a:hover{color:#08463C}
 </div>
 </article>
 
-<article style="display: flex; flex-wrap: wrap; gap: 40px; border: 1px solid #D6D4CC; border-radius: 10px; padding: 40px">
+<article style="display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; border: 1px dashed #A9A79E; border-radius: 10px; padding: 32px 40px">
 <div style="flex: 1 1 320px; min-width: 0">
-<p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #0B5E51">No. 03 · AI · Final-year CS project</p>
-<h3 style="margin: 12px 0 0; font-size: 32px; font-weight: 600; letter-spacing: -0.01em">LexAI</h3>
-<p style="margin: 16px 0 0; font-size: 17px; line-height: 1.6; color: #3D4049">An offline client-intake assistant for Malaysian employment lawyers. Clients can speak, type or upload documents; LexAI answers from the Employment Act 1955 and Industrial Relations Act 1967 — and cites only the provisions it actually retrieved.</p>
-<div style="margin-top: 28px; display: flex; flex-wrap: wrap; gap: 12px">
-<a href="https://github.com/rachelcjw101/csfyp-lexai" style="font-size: 15px; font-weight: 500; color: #FFFFFF; background: #16181D; text-decoration: none; padding: 12px 18px; border-radius: 6px">View on GitHub</a>
+<p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #0B5E51">No. 03 · Chrome extension · Coming soon</p>
+<h4 style="margin: 12px 0 0; font-size: 28px; font-weight: 600; letter-spacing: -0.01em">eFS Ticket Downloader</h4>
+<p style="margin: 12px 0 0; font-size: 17px; line-height: 1.6; color: #3D4049">The next tool in the eFS family. Launching soon.</p>
 </div>
-</div>
-<div style="flex: 1 1 320px; min-width: 0; background: #F3F2EE; border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
-<p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; color: #5A5D66">DESIGN CHOICES</p>
-<ul style="margin: 0; padding-left: 18px; font-size: 16px; line-height: 1.6">
-<li>Runs locally — client data never leaves the machine</li>
-<li>Section-aware chunking keeps each statutory provision intact</li>
-<li>Prompt constrained to cite retrieved provisions only, to curb hallucination</li>
-</ul>
-<p style="margin: 8px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; color: #5A5D66">STACK</p>
-<div style="display: flex; flex-wrap: wrap; gap: 8px">
-<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 6px 10px; border: 1px solid #C9C7BE; border-radius: 4px; background: #FFFFFF">Python</span>
-<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 6px 10px; border: 1px solid #C9C7BE; border-radius: 4px; background: #FFFFFF">Streamlit</span>
-<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 6px 10px; border: 1px solid #C9C7BE; border-radius: 4px; background: #FFFFFF">Ollama · Llama 3.2 3B</span>
-<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 6px 10px; border: 1px solid #C9C7BE; border-radius: 4px; background: #FFFFFF">Whisper</span>
-<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 6px 10px; border: 1px solid #C9C7BE; border-radius: 4px; background: #FFFFFF">Tesseract OCR</span>
-<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 6px 10px; border: 1px solid #C9C7BE; border-radius: 4px; background: #FFFFFF">RAG</span>
-</div>
-</div>
+<a href="https://www.linkedin.com/in/rachelcjw/" style="font-size: 15px; font-weight: 500; color: #16181D; text-decoration: none; padding: 12px 18px; border-radius: 6px; border: 1px solid #16181D">Follow for the launch</a>
 </article>
+
+<div style="display: flex; align-items: center; gap: 16px; margin-top: 24px">
+<h3 style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: #5A5D66; white-space: nowrap">Web tools</h3>
+<div style="flex: 1; height: 1px; background: #D6D4CC"></div>
+</div>
 
 <article style="display: flex; flex-wrap: wrap; gap: 40px; border: 1px solid #D6D4CC; border-radius: 10px; padding: 40px">
 <div style="flex: 1 1 320px; min-width: 0">
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #0B5E51">No. 04 · Web tool · Open source</p>
-<h3 style="margin: 12px 0 0; font-size: 32px; font-weight: 600; letter-spacing: -0.01em">Stamp Duty Calculator</h3>
+<h4 style="margin: 12px 0 0; font-size: 32px; font-weight: 600; letter-spacing: -0.01em">Stamp Duty Calculator</h4>
 <p style="margin: 16px 0 0; font-size: 17px; line-height: 1.6; color: #3D4049">Works out Malaysian stamp duty under the Stamp Act 1949 — property transfers with every relief, loans and financing, shares, tenancies and more — plus late-stamping penalties and solicitors' scale fees, with the working shown so you can check it.</p>
 <div style="margin-top: 28px; display: flex; flex-wrap: wrap; gap: 12px">
 <a href="https://rachelcjw101.github.io/stamp-duty-calculator-raych/" style="font-size: 15px; font-weight: 500; color: #FFFFFF; background: #0B5E51; text-decoration: none; padding: 12px 18px; border-radius: 6px">Try it</a>
@@ -146,13 +137,37 @@ a{color:#0B5E51}a:hover{color:#08463C}
 </div>
 </article>
 
-<article style="display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; border: 1px dashed #A9A79E; border-radius: 10px; padding: 32px 40px">
-<div style="flex: 1 1 320px; min-width: 0">
-<p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #0B5E51">No. 05 · Chrome extension · Coming soon</p>
-<h3 style="margin: 12px 0 0; font-size: 28px; font-weight: 600; letter-spacing: -0.01em">eFS Ticket Downloader</h3>
-<p style="margin: 12px 0 0; font-size: 17px; line-height: 1.6; color: #3D4049">The next tool in the eFS family. Launching soon.</p>
+<div style="display: flex; align-items: center; gap: 16px; margin-top: 24px">
+<h3 style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: #5A5D66; white-space: nowrap">AI</h3>
+<div style="flex: 1; height: 1px; background: #D6D4CC"></div>
 </div>
-<a href="https://www.linkedin.com/in/rachelcjw/" style="font-size: 15px; font-weight: 500; color: #16181D; text-decoration: none; padding: 12px 18px; border-radius: 6px; border: 1px solid #16181D">Follow for the launch</a>
+
+<article style="display: flex; flex-wrap: wrap; gap: 40px; border: 1px solid #D6D4CC; border-radius: 10px; padding: 40px">
+<div style="flex: 1 1 320px; min-width: 0">
+<p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #0B5E51">No. 05 · AI · Final-year CS project</p>
+<h4 style="margin: 12px 0 0; font-size: 32px; font-weight: 600; letter-spacing: -0.01em">LexAI</h4>
+<p style="margin: 16px 0 0; font-size: 17px; line-height: 1.6; color: #3D4049">An offline client-intake assistant for Malaysian employment lawyers. Clients can speak, type or upload documents; LexAI answers from the Employment Act 1955 and Industrial Relations Act 1967 — and cites only the provisions it actually retrieved.</p>
+<div style="margin-top: 28px; display: flex; flex-wrap: wrap; gap: 12px">
+<a href="https://github.com/rachelcjw101/csfyp-lexai" style="font-size: 15px; font-weight: 500; color: #FFFFFF; background: #16181D; text-decoration: none; padding: 12px 18px; border-radius: 6px">View on GitHub</a>
+</div>
+</div>
+<div style="flex: 1 1 320px; min-width: 0; background: #F3F2EE; border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; color: #5A5D66">DESIGN CHOICES</p>
+<ul style="margin: 0; padding-left: 18px; font-size: 16px; line-height: 1.6">
+<li>Runs locally — client data never leaves the machine</li>
+<li>Section-aware chunking keeps each statutory provision intact</li>
+<li>Prompt constrained to cite retrieved provisions only, to curb hallucination</li>
+</ul>
+<p style="margin: 8px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; color: #5A5D66">STACK</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 6px 10px; border: 1px solid #C9C7BE; border-radius: 4px; background: #FFFFFF">Python</span>
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 6px 10px; border: 1px solid #C9C7BE; border-radius: 4px; background: #FFFFFF">Streamlit</span>
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 6px 10px; border: 1px solid #C9C7BE; border-radius: 4px; background: #FFFFFF">Ollama · Llama 3.2 3B</span>
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 6px 10px; border: 1px solid #C9C7BE; border-radius: 4px; background: #FFFFFF">Whisper</span>
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 6px 10px; border: 1px solid #C9C7BE; border-radius: 4px; background: #FFFFFF">Tesseract OCR</span>
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 6px 10px; border: 1px solid #C9C7BE; border-radius: 4px; background: #FFFFFF">RAG</span>
+</div>
+</div>
 </article>
 
 </div>
